@@ -804,7 +804,7 @@ label.error {
 }
 
 .navbar-desctop-menu > li > a {
-	color: #fff;
+	color: #000;
 	background-color: transparent;
 	margin-bottom: 1.5em;
 }
@@ -1638,7 +1638,7 @@ img.mfp-img {
 	transition: all 0.5s;
 }
 
-.object-label:hover {
+.object-label .object-label2:hover {
 	box-shadow: none;
 }
 
@@ -2136,6 +2136,7 @@ img.mfp-img {
 .cambioimagen {
 	width: 180px;
 	background-size: cover;
+	padding-bottom: 23px;
 }
 
 @media screen and (max-width: 600px) {
