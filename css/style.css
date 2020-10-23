@@ -1624,6 +1624,20 @@ img.mfp-img {
 	transition: all 0.5s;
 }
 
+.object-label2 {
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	background-color: #fff;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #03045e;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .object-label:hover {
 	box-shadow: none;
 }
