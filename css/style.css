@@ -2118,21 +2118,20 @@ img.mfp-img {
 	font-family: "Montserrat";
 }
 
-.cambioimagen{
+.cambioimagen {
 	width: 180px;
 	background-size: cover;
 }
 
 @media screen and (max-width: 600px) {
-    .cambioimagen{
+	.cambioimagen {
 		width: 115px;
 		padding-right: 20px;
-    }
 	}
-	
+}
+
 @media screen and (max-width: 600px) {
-	.vertical-panel-title{
-		
+	.vertical-panel-title {
 		display: none;
 	}
-	}
+}
