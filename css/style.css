@@ -503,6 +503,7 @@ label.error {
 	width: 1px;
 	height: 50000px;
 	background-color: #f4f4f4;
+	opacity: 0;
 }
 
 .page-lines .col-line:last-child .line:last-child {
