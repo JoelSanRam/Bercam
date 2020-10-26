@@ -761,7 +761,6 @@ label.error {
 	top: 0;
 	left: 0;
 	width: 100%;
-	
 }
 
 .navbar-desctop .brand {
@@ -979,7 +978,6 @@ label.error {
 	background-color: #fff;
 	height: 2px;
 	width: 30px;
-	
 }
 
 .navbar-toggle .icon-bar + .icon-bar {
@@ -1788,6 +1786,18 @@ img.mfp-img {
 	html {
 		font-size: 85%;
 	}
+	.slide-title {
+		font-size: 36px !important;
+	}
+	.slide-subtitle {
+		font-size: 20px !important;
+	}
+	.cambioimagen {
+		margin-left: 30px;
+	}
+	.navbar-toggle {
+		margin-right: 30px;
+	}
 
 	/* Slider */
 
@@ -1885,7 +1895,6 @@ img.mfp-img {
 		top: 43.5vmin;
 		bottom: auto;
 	}
-
 	.arrow-right {
 		left: 28vmin;
 		right: auto;
@@ -2141,7 +2150,7 @@ img.mfp-img {
 	padding-top: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 602px) {
 	.cambioimagen {
 		width: 120px;
 		margin-top: -10px;
@@ -2149,8 +2158,28 @@ img.mfp-img {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 602px) {
 	.vertical-panel-title {
 		display: none;
+	}
+}
+@media screen and (max-width: 320px) {
+	.slide-title {
+		font-size: 20px !important;
+		line-height: normal !important;
+		margin-right: 5px !important;
+	}
+	.slide-subtitle {
+		padding-top: 2px !important;
+		font-size: 12px !important;
+		line-height: normal !important;
+		margin-right: 5px !important;
+	}
+	.tp-caption {
+		margin-right: 5px !important;
+		margin-top: 3px !important;
+	}
+	.prueba-slider {
+		font-size: 15px !important;
 	}
 }
