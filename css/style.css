@@ -2152,9 +2152,12 @@ img.mfp-img {
 
 @media screen and (max-width: 602px) {
 	.cambioimagen {
-		width: 120px;
-		margin-top: -10px;
+		width: 160px !important;
+		margin-top: -20px !important;
 		padding-left: 15px;
+	}
+	.brand {
+		margin-left: -20px !important;
 	}
 }
 
@@ -2163,11 +2166,71 @@ img.mfp-img {
 		display: none;
 	}
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) and (min-width: 420px) {
 	.slide-title {
-		font-size: 20px !important;
+		font-size: 25px !important;
+		line-height: normal !important;
+		margin-right: 10px !important;
+	}
+	.slide-subtitle {
+		padding-top: 2px !important;
+		font-size: 16px !important;
+		line-height: normal !important;
+		margin-right: 10px !important;
+	}
+	.tp-caption {
+		margin-right: 5px !important;
+		margin-top: 3px !important;
+	}
+	.titulo-slide-tres {
+		margin-bottom: 50px !important;
+		font-size: 18px !important;
+	}
+	.btn-segundo-slide {
+		margin-top: 20px !important;
+	}
+	.titulo-slide-uno {
+		margin-bottom: 20px !important;
+	}
+	.btn-slide-tres {
+		margin-top: 10px !important;
+	}
+}
+@media screen and (max-width: 376px) and (min-width: 374px) {
+	.slide-title {
+		font-size: 23px !important;
 		line-height: normal !important;
 		margin-right: 5px !important;
+	}
+	.slide-subtitle {
+		padding-top: 2px !important;
+		font-size: 14px !important;
+		line-height: normal !important;
+		margin-right: 5px !important;
+	}
+	.tp-caption {
+		margin-right: 5px !important;
+		margin-top: 3px !important;
+	}
+	.titulo-slide-tres {
+		margin-bottom: 30px !important;
+		font-size: 18px !important;
+	}
+	.btn-segundo-slide {
+		margin-top: 20px !important;
+	}
+	.titulo-slide-uno {
+		margin-bottom: 20px !important;
+	}
+	.btn-slide-tres {
+		margin-top: 10px !important;
+	}
+}
+@media screen and (max-width: 321px) and (min-width: 319px) {
+	.slide-title {
+		font-size: 21px !important;
+		line-height: normal !important;
+		margin-right: 12px !important;
 	}
 	.slide-subtitle {
 		padding-top: 2px !important;
@@ -2179,7 +2242,22 @@ img.mfp-img {
 		margin-right: 5px !important;
 		margin-top: 3px !important;
 	}
-	.prueba-slider {
-		font-size: 15px !important;
+	.titulo-slide-tres {
+		margin-bottom: 30px !important;
+		font-size: 18px !important;
+	}
+	.btn-segundo-slide {
+		margin-top: 20px !important;
+	}
+	.cambioimagen {
+		width: 150px !important;
+		margin-top: -20px !important;
+		padding-left: 15px;
+	}
+	.titulo-slide-uno {
+		margin-bottom: 20px !important;
+	}
+	.btn-slide-tres {
+		margin-top: 10px !important;
 	}
 }
